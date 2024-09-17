@@ -1,4 +1,4 @@
-#Backpropagation of MultiLayer Perceptron
+# Backpropagation of MultiLayer Perceptron
 
  All messages were implemented in Linear Layer, ReLU Layer, Softmax Layer and Loss Cross Entropy in attached code. 
  The actual backpropagation is performed by the gradient method in MLP. This MLP classifier has been trained on 
@@ -31,7 +31,7 @@ The learning rate α = 5.0 has too large step which causes it to initially conve
  As a result, the ideal learning step α for 1000 epochs and MLP classifier with gradient
  method is around 1.0.
 
- #Math 
+ # Math 
 
  By implementing a compound layer combining the softmax layer and multinomial
  cross-entropy loss, we can decrease the number of operations needed to compute the updates.
